@@ -1,5 +1,34 @@
-# Pruebas Code
+# Pruebas de Código
 
-El objetivo es resolver el codigo que aparece aca, utilizando Git.
+El objetivo es resolver el problema, utilizando Python3 
+como lenguaje y Git para compartir el código.
 
+## Problema
+
+Se debe leer información desde una página web repetidas veces y mostrar esa información en la pantalla.
+En este caso, se trata de obtener un número al azar desde la página [http://olympus.realpython.org/dice]()
+
+El programa debe pedir 6 veces el resultado, esperando 10 
+segundos entre intentos y mostrarlo en la salida de la línea 
+de comando, con este formato:
+
+`Me salió un '<VALOR>' el día <FECHA>`
+
+Ejemplo:
+
+	Me salió un '1' el día June 10, 2019 02:58:29P
+	Me salió un '3' el día June 10, 2019 02:58:39P
+	Me salió un '5' el día June 10, 2019 02:58:50P
+	Me salió un '2' el día June 10, 2019 02:59:01P
+	Me salió un '1' el día June 10, 2019 02:59:11P
+	Me salió un '4' el día June 10, 2019 02:59:21P
+
+Se invocará al programa de la siguiente manera:
+`python3 obtener_numero_azar.py`
+
+##Indicaciones
+* Indicación 1: El valor está en el tag con `id=result`.
+* Indicación 2: Utilizar el módulo`mechanicalsoup`.
+Se puede instalar con `pip3 install mechanicalsoup`
+* Indicación 3: Usar python3
 

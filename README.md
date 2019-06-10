@@ -27,9 +27,10 @@ Se invocará al programa de la siguiente manera:
 `python3 obtener_numero_azar.py`
 
 ## Indicaciones
-1. El valor del dado está en el tag `id=result`.
-2. La fecha está en el tag `id=time`
-3. Utilizar el módulo`mechanicalsoup`.
-Se puede instalar con `pip3 install mechanicalsoup`
-4. Usar python3
+1. En el sitio Web:
+	1. El valor del dado está en el tag `id=result`.
+	2. La fecha está en el tag `id=time`.
+2. Utilizar el módulo`mechanicalsoup`.
+Se puede instalar con `pip3 install mechanicalsoup`.
+3. Usar python3.
 

@@ -6,7 +6,7 @@ como lenguaje y Git para compartir el código.
 ## Problema
 
 Se debe leer información desde una página web repetidas veces y mostrar esa información en la pantalla.
-En este caso, se trata de obtener un número al azar desde la página [http://olympus.realpython.org/dice]()
+En este caso, se trata de obtener un número al azar (un dado virtual) desde la página [http://olympus.realpython.org/dice]()
 
 El programa debe pedir 6 veces el resultado, esperando 10 
 segundos entre intentos y mostrarlo en la salida de la línea 
@@ -27,8 +27,9 @@ Se invocará al programa de la siguiente manera:
 `python3 obtener_numero_azar.py`
 
 ## Indicaciones
-* Indicación 1: El valor está en el tag con `id=result`.
-* Indicación 2: Utilizar el módulo`mechanicalsoup`.
+1. El valor del dado está en el tag `id=result`.
+2. La fecha está en el tag `id=time`
+3. Utilizar el módulo`mechanicalsoup`.
 Se puede instalar con `pip3 install mechanicalsoup`
-* Indicación 3: Usar python3
+4. Usar python3
 

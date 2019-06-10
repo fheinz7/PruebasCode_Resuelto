@@ -26,7 +26,7 @@ Ejemplo:
 Se invocará al programa de la siguiente manera:
 `python3 obtener_numero_azar.py`
 
-##Indicaciones
+## Indicaciones
 * Indicación 1: El valor está en el tag con `id=result`.
 * Indicación 2: Utilizar el módulo`mechanicalsoup`.
 Se puede instalar con `pip3 install mechanicalsoup`

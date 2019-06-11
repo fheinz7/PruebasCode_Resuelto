@@ -21,7 +21,7 @@ def print_message():
             out_str = out_str + response[0].next                                                # Formar string final
             print(out_str)                                                                      # Mostrar string por el stdout
         else:
-            print("Eroor. Código de respuesta:", response.status_code)                          # Imprimir código de respuesta en caso de error
+            print("Error. Código de respuesta:", response.status_code)                          # Imprimir código de respuesta en caso de error
     except:
         print('Error al comunicarse con el servidor')                                           # Avisar que no se pudo hacer conexión con el servidor
     

@@ -20,9 +20,7 @@ def print_message(): # Tarea principal
         print('Error al comunicarse con el servidor') # Avisar que no se pudo hacer conexión con el servidor
     
     i += 1 # Contar ejecución actual
-    if i>=n_execution: # Lógica de término de ejecución del programa
-        return
-    else:
+    if i<n_execution: # Lógica de término de ejecución del programa
         threading.Timer(timeout, print_message).start() # Crear un timer para la ejecución de la tarea en un hilo distinto, para no colgar el programa
 
 
